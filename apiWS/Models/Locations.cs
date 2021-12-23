@@ -17,7 +17,6 @@ namespace apiWS.Models
         public int Postal_Code { get; set; }
         public string Street { get; set; }
         public int Street_Number { get; set; }
-
         [ForeignKey("Id_location")]
         public virtual IList<Products> Products { get; set; }  // jedna lokacija moze da ima vise proizvoda, OVO JE FK U PRODUCTS, ovo je {include}
 

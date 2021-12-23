@@ -10,8 +10,7 @@ namespace apiWS.Models
     public class ProductsDTO
     {     
         public int Id { get; set; }      
-        public int Id_categories { get; set; }
-    
+        public int Id_categories { get; set; } 
       //  public CategoriesDTO Categories { get; set; }
         public int Id_location { get; set; }        
      //   public LocationsDTO Locations { get; set; }  // ovo znaci da cemo pristupiti svemu u tabeli lokacija

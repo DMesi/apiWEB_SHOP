@@ -124,3 +124,8 @@ C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\ne
 C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.pdb
 C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.genruntimeconfig.cache
 C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.csproj.AssemblyReference.cache
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll

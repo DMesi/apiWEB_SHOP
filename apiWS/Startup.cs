@@ -17,6 +17,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using apiWS.Dto;
+using Microsoft.AspNetCore.Identity;
+using apiWS.Services;
 
 namespace apiWS
 {
@@ -38,8 +40,22 @@ namespace apiWS
 
             );
 
-           
+
+            services.AddAuthentication();
+
+            // ovo je u novo napravljenoj klasi ServiceExtensions
+            services.ConfigureIdentity();
+            services.ConfigureJWT(Configuration);
+
+
+
+            services.AddIdentityCore<ApiUser>(q => q.User.RequireUniqueEmail = true);
+
+
             services.AddTransient<IUnitOfWork, UnitOfWork>();
+
+            services.AddScoped<IAuthManager, AuthManager>();
+
             services.AddAutoMapper(typeof(MapperInitilizer));
 
             services.AddControllers();
@@ -63,6 +79,7 @@ namespace apiWS
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

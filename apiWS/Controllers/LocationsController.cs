@@ -1,6 +1,7 @@
 ﻿using apiWS.IRepository;
 using apiWS.Models;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -49,6 +50,7 @@ namespace apiWS.Controllers
 
 
         // "{id:int}" - template for get 
+        [Authorize]
         [HttpGet("{id:int}", Name = "GetLocation")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]

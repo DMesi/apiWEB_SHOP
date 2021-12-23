@@ -20,9 +20,9 @@ namespace apiWS.Dto
             CreateMap<Locations, LocationsDTO>().ReverseMap();
             CreateMap<Products, ProductsDTO>().ReverseMap();
             CreateMap<Locations, LocationsCreateDTO>().ReverseMap();
+            CreateMap<ApiUser, UserDTO>().ReverseMap();
 
 
-           
         }
     }
 }

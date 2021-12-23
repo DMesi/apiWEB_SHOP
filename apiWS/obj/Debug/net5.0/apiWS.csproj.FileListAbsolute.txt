@@ -1,0 +1,126 @@
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\appsettings.Development.json
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\appsettings.json
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\apiWS.exe
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\apiWS.deps.json
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\apiWS.runtimeconfig.json
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\apiWS.runtimeconfig.dev.json
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\apiWS.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\ref\apiWS.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\apiWS.pdb
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.OpenApi.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\apiWS.GeneratedMSBuildEditorConfig.editorconfig
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\apiWS.AssemblyInfoInputs.cache
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\apiWS.AssemblyInfo.cs
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\apiWS.csproj.CoreCompileInputs.cache
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\apiWS.MvcApplicationPartsAssemblyInfo.cs
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\apiWS.MvcApplicationPartsAssemblyInfo.cache
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\staticwebassets\apiWS.StaticWebAssets.Manifest.cache
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\staticwebassets\apiWS.StaticWebAssets.xml
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\scopedcss\bundle\apiWS.styles.css
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\apiWS.RazorTargetAssemblyInfo.cache
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\apiWS.csproj.CopyComplete
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\apiWS.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\ref\apiWS.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\apiWS.pdb
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\apiWS.genruntimeconfig.cache
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Humanizer.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\Newtonsoft.Json.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\System.Runtime.Caching.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\AutoMapper.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS\obj\Debug\net5.0\apiWS.csproj.AssemblyReference.cache
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\appsettings.json
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\apiWS.exe
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\apiWS.deps.json
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\apiWS.runtimeconfig.json
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\apiWS.runtimeconfig.dev.json
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\apiWS.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\ref\apiWS.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\apiWS.pdb
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.AssemblyInfoInputs.cache
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.AssemblyInfo.cs
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.csproj.CoreCompileInputs.cache
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\staticwebassets\apiWS.StaticWebAssets.Manifest.cache
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\staticwebassets\apiWS.StaticWebAssets.xml
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\scopedcss\bundle\apiWS.styles.css
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.RazorTargetAssemblyInfo.cache
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.csproj.CopyComplete
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\ref\apiWS.dll
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.pdb
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.genruntimeconfig.cache
+C:\Users\Messi\Desktop\apiProdavncica - Copy - Copy (2)\apiWS\apiWS\obj\Debug\net5.0\apiWS.csproj.AssemblyReference.cache

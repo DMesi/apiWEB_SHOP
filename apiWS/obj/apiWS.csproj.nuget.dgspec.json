@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "d:\\data\\mes7456\\Desktop\\apiProdavncica\\apiWS\\apiWS\\apiWS.csproj": {}
+    "C:\\Users\\Messi\\Desktop\\apiProdavncica\\apiWS\\apiWS\\apiWS.csproj": {}
   },
   "projects": {
-    "d:\\data\\mes7456\\Desktop\\apiProdavncica\\apiWS\\apiWS\\apiWS.csproj": {
+    "C:\\Users\\Messi\\Desktop\\apiProdavncica\\apiWS\\apiWS\\apiWS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\data\\mes7456\\Desktop\\apiProdavncica\\apiWS\\apiWS\\apiWS.csproj",
+        "projectUniqueName": "C:\\Users\\Messi\\Desktop\\apiProdavncica\\apiWS\\apiWS\\apiWS.csproj",
         "projectName": "apiWS",
-        "projectPath": "d:\\data\\mes7456\\Desktop\\apiProdavncica\\apiWS\\apiWS\\apiWS.csproj",
-        "packagesPath": "C:\\Users\\mes7456\\.nuget\\packages\\",
-        "outputPath": "d:\\data\\mes7456\\Desktop\\apiProdavncica\\apiWS\\apiWS\\obj\\",
+        "projectPath": "C:\\Users\\Messi\\Desktop\\apiProdavncica\\apiWS\\apiWS\\apiWS.csproj",
+        "packagesPath": "C:\\Users\\Messi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Messi\\Desktop\\apiProdavncica\\apiWS\\apiWS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mes7456\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Messi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -44,9 +45,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AspNetCoreRateLimit": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
+            },
+            "Marvin.Cache.Headers": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -55,6 +64,14 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -70,9 +87,17 @@
               "target": "Package",
               "version": "[5.0.10, )"
             },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [
@@ -93,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

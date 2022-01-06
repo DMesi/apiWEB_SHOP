@@ -12,19 +12,21 @@ using System.Threading.Tasks;
 
 namespace apiWS.Controllers
 {
-    [Route("api/[controller]")]
+     [Route("api/[controller]")]
+    //[Route("api/loc")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "LocationAPI")]
     public class LocationsController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-      //  private readonly ILogger _logger;
+        private readonly ILogger _logger;
 
-        public LocationsController(IUnitOfWork unitOfWork,  IMapper mapper)
+        public LocationsController(IUnitOfWork unitOfWork, ILogger<AccountController> logger, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
-       //     _logger = logger;
+            _logger = logger;
         }
 
 
@@ -32,17 +34,18 @@ namespace apiWS.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetLocations()
+      //  public async Task<IActionResult> GetLocations([FromQuery]RequestParams requestParams)  //uzimamo parametre iz URL PAGGIN
         {
             try
             {
                 var locations = await _unitOfWork.Locations.GetAll();
-               
+              //  var locations = await _unitOfWork.Locations.GetPagedList(requestParams);
                 var results = _mapper.Map<List<LocationsDTO>>(locations);  // korisnicima ce biti vidljivo samo ono sto je u LocationsDTO a ne u klasi Locations
                 return Ok(results);
             }
             catch (Exception ex)
             {
-         //       _logger.LogError(ex, $"Something Went Wronk un the {nameof(GetLocations)}");
+                _logger.LogError(ex, $"Something Went Wronk un the {nameof(GetLocations)}");
                 return StatusCode(500, "Internal Server Error. Please Try Again Later.");
             }
 
@@ -50,6 +53,7 @@ namespace apiWS.Controllers
 
 
         // "{id:int}" - template for get 
+        //[Authorize(Roles = "User ")]
         [Authorize]
         [HttpGet("{id:int}", Name = "GetLocation")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -64,7 +68,7 @@ namespace apiWS.Controllers
             }
             catch (Exception ex)
             {
-              //  _logger.LogError(ex, $"Something Went Wronk un the {nameof(GetCountry)}");
+                _logger.LogError(ex, $"Something Went Wronk un the {nameof(GetLocation)}");
                 return StatusCode(500, "Internal Server Error. Please Try Again Later.");
             }
 
@@ -83,7 +87,7 @@ namespace apiWS.Controllers
             if (!ModelState.IsValid)
             {
 
-          //     _logger.LogError($"Invalid POST atempt in {nameof(CreateCountry)}");
+               _logger.LogError($"Invalid POST atempt in {nameof(CreateLocation)}");
                 return BadRequest(ModelState);
 
             }
@@ -99,7 +103,7 @@ namespace apiWS.Controllers
             }
             catch (Exception ex)
             {
-           //     _logger.LogError(ex, $"Something Went Wrong in the {nameof(CreateCountry)}");
+                _logger.LogError(ex, $"Something Went Wrong in the {nameof(CreateLocation)}");
                 return StatusCode(500, "Internal Server Error. Please Try Again Later");
             }
         }
@@ -112,7 +116,7 @@ namespace apiWS.Controllers
         {
             if (!ModelState.IsValid || id < 1)
             {
-                //  _logger.LogError($"Invalid UPDATE atempt in {nameof(UpdateCountry)}");
+                _logger.LogError($"Invalid UPDATE atempt in {nameof(UpdateCountry)}");
                 return BadRequest(ModelState);
             }
             try
@@ -120,7 +124,7 @@ namespace apiWS.Controllers
                 var loc = await _unitOfWork.Locations.Get(q => q.Id == id);
                 if (loc == null)
                 {
-                    //    _logger.LogError($"Invalid UPDATE atempt in {nameof(UpdateCountry)}"); //ime kontrolera
+                    _logger.LogError($"Invalid UPDATE atempt in {nameof(UpdateCountry)}"); //ime kontrolera
                     return BadRequest("Submitted data is invalid");
 
                 }
@@ -132,7 +136,7 @@ namespace apiWS.Controllers
             }
             catch (Exception ex)
             {
-                //   _logger.LogError(ex, $"Something Went Wrong in the {nameof(UpdateCountry)}");
+                _logger.LogError(ex, $"Something Went Wrong in the {nameof(UpdateCountry)}");
                 return StatusCode(500, "Internal Server Error. Please Try Again Later");
             }
 
@@ -146,7 +150,7 @@ namespace apiWS.Controllers
         {
             if (id < 1)
             {
-                //   _logger.LogError($"Invalid DELETE atempt in {nameof(DeleteCountry)}");
+                _logger.LogError($"Invalid DELETE atempt in {nameof(DeleteLocation)}");
                 return BadRequest(ModelState);
             }
             try
@@ -154,7 +158,7 @@ namespace apiWS.Controllers
                 var country = await _unitOfWork.Locations.Get(q => q.Id == id);
                 if (country == null)
                 {
-                    //      _logger.LogError($"Invalid DELETE atempt in {nameof(DeleteCountry)}");
+                    _logger.LogError($"Invalid DELETE atempt in {nameof(DeleteLocation)}");
                     return BadRequest("Submitted data is invalid");
                 }
 
@@ -166,7 +170,7 @@ namespace apiWS.Controllers
             }
             catch (Exception ex)
             {
-                //   _logger.LogError(ex, $"Something Went Wrong in the {nameof(DeleteCountry)}");
+                _logger.LogError(ex, $"Something Went Wrong in the {nameof(DeleteLocation)}");
                 return StatusCode(500, "Internal Server Error. Please Try Again Later");
             }
         }

@@ -1,0 +1,1240 @@
+2021-12-27 13:20:41.485 +01:00 [INF]Aplikacija pocinje sa radom
+2021-12-27 13:20:45.474 +01:00 [INF]User profile is available. Using 'C:\Users\mes7456\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-27 13:20:46.085 +01:00 [INF]Application started. Press Ctrl+C to shut down.
+2021-12-27 13:20:46.085 +01:00 [INF]Hosting environment: Development
+2021-12-27 13:20:46.085 +01:00 [INF]Content root path: d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS
+2021-12-27 13:20:46.086 +01:00 [INF]Application is shutting down...
+2021-12-27 13:20:46.185 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2021-12-27 13:20:46.433 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 249.1145ms
+2021-12-27 13:32:59.733 +01:00 [INF]Aplikacija pocinje sa radom
+2021-12-27 13:33:00.138 +01:00 [INF]User profile is available. Using 'C:\Users\mes7456\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-27 13:33:00.349 +01:00 [INF]Application started. Press Ctrl+C to shut down.
+2021-12-27 13:33:00.349 +01:00 [INF]Hosting environment: Development
+2021-12-27 13:33:00.349 +01:00 [INF]Content root path: d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS
+2021-12-27 13:33:00.372 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2021-12-27 13:33:00.466 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 95.9943ms
+2021-12-27 13:33:00.504 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+2021-12-27 13:33:00.506 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 3080 application/javascript;+charset=utf-8 1.7355ms
+2021-12-27 13:33:00.751 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2021-12-27 13:33:00.822 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 70.2712ms
+2021-12-27 13:35:50.535 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/lokacija - -
+2021-12-27 13:35:50.544 +01:00 [INF]No cached response available for this request.
+2021-12-27 13:35:50.665 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 13:35:50.668 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 13:35:50.668 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 13:35:50.670 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 13:35:50.670 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 13:35:50.670 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 13:35:50.848 +01:00 [INF]Generating expiration headers.
+2021-12-27 13:35:50.848 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 12:36:55 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 13:35:50.849 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 13:35:50.850 +01:00 [INF]Generating Vary header.
+2021-12-27 13:35:50.850 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 13:35:50.853 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 13:35:50.854 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/lokacija - - - 404 - - 318.8696ms
+2021-12-27 13:36:00.008 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/locations - -
+2021-12-27 13:36:00.010 +01:00 [INF]No cached response available for this request.
+2021-12-27 13:36:00.011 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 13:36:00.011 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 13:36:00.011 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 13:36:00.011 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 13:36:00.011 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 13:36:00.011 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 13:36:00.013 +01:00 [INF]Generating expiration headers.
+2021-12-27 13:36:00.013 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 12:37:05 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 13:36:00.013 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 13:36:00.013 +01:00 [INF]Generating Vary header.
+2021-12-27 13:36:00.013 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 13:36:00.014 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 13:36:00.014 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/locations - - - 404 - - 6.8044ms
+2021-12-27 13:36:13.788 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations - -
+2021-12-27 13:36:13.789 +01:00 [INF]No cached response available for this request.
+2021-12-27 13:36:13.789 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 13:36:13.789 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 13:36:13.790 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 13:36:13.790 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 13:36:13.790 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 13:36:13.790 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 13:36:13.791 +01:00 [INF]Generating expiration headers.
+2021-12-27 13:36:13.791 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 12:37:18 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 13:36:13.791 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 13:36:13.791 +01:00 [INF]Generating Vary header.
+2021-12-27 13:36:13.791 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 13:36:13.791 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 13:36:13.791 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations - - - 404 - - 2.8655ms
+2021-12-27 13:36:18.312 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations/1 - -
+2021-12-27 13:36:18.312 +01:00 [INF]No cached response available for this request.
+2021-12-27 13:36:18.312 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 13:36:18.312 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 13:36:18.312 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 13:36:18.312 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 13:36:18.312 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 13:36:18.312 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 13:36:18.313 +01:00 [INF]Request get:/api/locations/1 from IP ::1 has been blocked, quota 1/5s exceeded by 1. Blocked by rule *, TraceIdentifier 80000004-0000-f300-b63f-84710c7967bb.
+2021-12-27 13:36:18.313 +01:00 [INF]Generating expiration headers.
+2021-12-27 13:36:18.313 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 12:37:23 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 13:36:18.313 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 13:36:18.313 +01:00 [INF]Generating Vary header.
+2021-12-27 13:36:18.313 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 13:36:18.315 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 13:36:18.316 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations/1 - - - 429 - text/plain 4.1411ms
+2021-12-27 13:36:18.358 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/favicon.ico - -
+2021-12-27 13:36:18.359 +01:00 [INF]No cached response available for this request.
+2021-12-27 13:36:18.359 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 13:36:18.359 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 13:36:18.359 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 13:36:18.359 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 13:36:18.359 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 13:36:18.359 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 13:36:18.359 +01:00 [INF]Request get:/favicon.ico from IP ::1 has been blocked, quota 1/5s exceeded by 2. Blocked by rule *, TraceIdentifier 80000006-0000-f300-b63f-84710c7967bb.
+2021-12-27 13:36:18.359 +01:00 [INF]Generating expiration headers.
+2021-12-27 13:36:18.359 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 12:37:23 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 13:36:18.359 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 13:36:18.359 +01:00 [INF]Generating Vary header.
+2021-12-27 13:36:18.359 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 13:36:18.359 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 13:36:18.359 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/favicon.ico - - - 429 - text/plain 0.8060ms
+2021-12-27 13:36:22.646 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations/2 - -
+2021-12-27 13:36:22.646 +01:00 [INF]No cached response available for this request.
+2021-12-27 13:36:22.646 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 13:36:22.646 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 13:36:22.646 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 13:36:22.646 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 13:36:22.646 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 13:36:22.646 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 13:36:22.647 +01:00 [INF]Generating expiration headers.
+2021-12-27 13:36:22.647 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 12:37:27 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 13:36:22.647 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 13:36:22.647 +01:00 [INF]Generating Vary header.
+2021-12-27 13:36:22.647 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 13:36:22.647 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 13:36:22.647 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations/2 - - - 404 - - 1.3790ms
+2021-12-27 13:36:25.964 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations/3 - -
+2021-12-27 13:36:25.965 +01:00 [INF]No cached response available for this request.
+2021-12-27 13:36:25.966 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 13:36:25.966 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 13:36:25.966 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 13:36:25.966 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 13:36:25.966 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 13:36:25.966 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 13:36:25.966 +01:00 [INF]Request get:/api/locations/3 from IP ::1 has been blocked, quota 1/5s exceeded by 1. Blocked by rule *, TraceIdentifier 8000005a-0002-fd00-b63f-84710c7967bb.
+2021-12-27 13:36:25.966 +01:00 [INF]Generating expiration headers.
+2021-12-27 13:36:25.966 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 12:37:30 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 13:36:25.966 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 13:36:25.966 +01:00 [INF]Generating Vary header.
+2021-12-27 13:36:25.966 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 13:36:25.966 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 13:36:25.967 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations/3 - - - 429 - text/plain 2.5452ms
+2021-12-27 13:36:29.437 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations/4 - -
+2021-12-27 13:36:29.438 +01:00 [INF]No cached response available for this request.
+2021-12-27 13:36:29.438 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 13:36:29.438 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 13:36:29.438 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 13:36:29.438 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 13:36:29.438 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 13:36:29.438 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 13:36:29.438 +01:00 [INF]Generating expiration headers.
+2021-12-27 13:36:29.438 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 12:37:34 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 13:36:29.438 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 13:36:29.438 +01:00 [INF]Generating Vary header.
+2021-12-27 13:36:29.438 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 13:36:29.438 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 13:36:29.439 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations/4 - - - 404 - - 1.3174ms
+2021-12-27 13:37:20.140 +01:00 [INF]Aplikacija pocinje sa radom
+2021-12-27 13:37:20.604 +01:00 [INF]User profile is available. Using 'C:\Users\mes7456\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-27 13:37:20.789 +01:00 [INF]Application started. Press Ctrl+C to shut down.
+2021-12-27 13:37:20.789 +01:00 [INF]Hosting environment: Development
+2021-12-27 13:37:20.789 +01:00 [INF]Content root path: d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS
+2021-12-27 13:37:20.808 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2021-12-27 13:37:20.893 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 86.8147ms
+2021-12-27 13:37:20.944 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+2021-12-27 13:37:20.946 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 3080 application/javascript;+charset=utf-8 1.4507ms
+2021-12-27 13:37:21.237 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2021-12-27 13:37:21.324 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.5135ms
+2021-12-27 13:37:30.779 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations - -
+2021-12-27 13:37:30.789 +01:00 [INF]No cached response available for this request.
+2021-12-27 13:37:30.802 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 13:37:30.803 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 13:37:30.803 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 13:37:30.804 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 13:37:30.804 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 13:37:30.804 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 13:37:30.876 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 13:37:30.899 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 13:37:31.840 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 13:37:40.111 +01:00 [INF]Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 13:37:40.155 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 13:37:40.168 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 9265.1722ms
+2021-12-27 13:37:40.169 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 13:37:40.171 +01:00 [INF]Generating expiration headers.
+2021-12-27 13:37:40.171 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 12:38:45 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 13:37:40.172 +01:00 [INF]Generating Validation headers.
+2021-12-27 13:37:40.177 +01:00 [INF]Validation headers generated. ETag: Strong, "C2144F85D495677756158D6B4EC154FB". Last-Modified: Mon, 27 Dec 2021 12:37:40 GMT
+2021-12-27 13:37:40.178 +01:00 [INF]Generating Vary header.
+2021-12-27 13:37:40.178 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 13:37:40.184 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 13:37:40.188 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations - - - 200 - application/json;+charset=utf-8 9408.2986ms
+2021-12-27 14:50:05.289 +01:00 [INF]Aplikacija pocinje sa radom
+2021-12-27 14:50:07.581 +01:00 [INF]User profile is available. Using 'C:\Users\mes7456\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-27 14:50:08.067 +01:00 [INF]Application started. Press Ctrl+C to shut down.
+2021-12-27 14:50:08.067 +01:00 [INF]Hosting environment: Development
+2021-12-27 14:50:08.067 +01:00 [INF]Content root path: d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS
+2021-12-27 14:50:08.128 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2021-12-27 14:50:08.307 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 181.0390ms
+2021-12-27 14:52:53.895 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2021-12-27 14:52:53.904 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 9.6168ms
+2021-12-27 14:52:53.987 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+2021-12-27 14:52:53.989 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 3080 application/javascript;+charset=utf-8 1.7446ms
+2021-12-27 14:52:54.174 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2021-12-27 14:52:54.258 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.9264ms
+2021-12-27 14:59:30.932 +01:00 [INF]Aplikacija pocinje sa radom
+2021-12-27 14:59:31.410 +01:00 [INF]User profile is available. Using 'C:\Users\mes7456\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-27 14:59:31.599 +01:00 [INF]Application started. Press Ctrl+C to shut down.
+2021-12-27 14:59:31.599 +01:00 [INF]Hosting environment: Development
+2021-12-27 14:59:31.599 +01:00 [INF]Content root path: d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS
+2021-12-27 14:59:31.623 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2021-12-27 14:59:31.732 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 110.6826ms
+2021-12-27 14:59:31.863 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+2021-12-27 14:59:31.868 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 3080 application/javascript;+charset=utf-8 5.3072ms
+2021-12-27 14:59:32.015 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2021-12-27 14:59:32.088 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.9901ms
+2021-12-27 14:59:42.564 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations - -
+2021-12-27 14:59:42.574 +01:00 [INF]No cached response available for this request.
+2021-12-27 14:59:42.649 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 14:59:42.655 +01:00 [INF]No saved response found in store.
+2021-12-27 14:59:42.655 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 14:59:42.657 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 14:59:42.657 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 14:59:42.657 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 14:59:42.830 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 14:59:42.850 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 14:59:43.688 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 14:59:55.319 +01:00 [INF]Executed DbCommand (287ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 14:59:55.362 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 14:59:55.375 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 12521.9049ms
+2021-12-27 14:59:55.376 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 14:59:55.378 +01:00 [INF]Generating expiration headers.
+2021-12-27 14:59:55.379 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:01:00 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 14:59:55.380 +01:00 [INF]Generating Validation headers.
+2021-12-27 14:59:55.381 +01:00 [INF]Validation headers generated. ETag: Strong, "C2144F85D495677756158D6B4EC154FB". Last-Modified: Mon, 27 Dec 2021 13:59:55 GMT
+2021-12-27 14:59:55.382 +01:00 [INF]Generating Vary header.
+2021-12-27 14:59:55.382 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 14:59:55.389 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 14:59:55.394 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations - - - 200 - application/json;+charset=utf-8 12830.1728ms
+2021-12-27 15:00:14.829 +01:00 [INF]Aplikacija pocinje sa radom
+2021-12-27 15:00:15.431 +01:00 [INF]User profile is available. Using 'C:\Users\mes7456\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-27 15:00:15.678 +01:00 [INF]Application started. Press Ctrl+C to shut down.
+2021-12-27 15:00:15.678 +01:00 [INF]Hosting environment: Development
+2021-12-27 15:00:15.678 +01:00 [INF]Content root path: d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS
+2021-12-27 15:00:15.700 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2021-12-27 15:00:15.800 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 101.9300ms
+2021-12-27 15:00:15.961 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+2021-12-27 15:00:15.963 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 3080 application/javascript;+charset=utf-8 1.7204ms
+2021-12-27 15:00:16.191 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2021-12-27 15:00:16.279 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.9545ms
+2021-12-27 15:00:19.762 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:00:19.770 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:00:19.784 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:00:19.786 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:00:19.786 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:00:19.787 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:00:19.787 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:00:19.787 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:00:19.859 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:00:19.877 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:00:20.604 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:00:21.145 +01:00 [INF]Executed DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:00:21.198 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:00:21.210 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 1328.9951ms
+2021-12-27 15:00:21.210 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:00:21.212 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:00:21.213 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:01:26 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:00:21.214 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:00:21.219 +01:00 [INF]Validation headers generated. ETag: Strong, "28B8492D8FFE6F7E92EFCF65661C3B58". Last-Modified: Mon, 27 Dec 2021 14:00:21 GMT
+2021-12-27 15:00:21.219 +01:00 [INF]Generating Vary header.
+2021-12-27 15:00:21.219 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:00:21.225 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:00:21.228 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 1465.7798ms
+2021-12-27 15:05:45.266 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations - -
+2021-12-27 15:05:45.267 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:05:45.267 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:05:45.268 +01:00 [INF]No saved response found in store.
+2021-12-27 15:05:45.268 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:05:45.268 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:05:45.268 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:05:45.268 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:05:45.270 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:05:45.270 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:05:45.297 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:05:45.322 +01:00 [INF]Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:05:45.323 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:05:45.323 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 52.376ms
+2021-12-27 15:05:45.323 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:05:45.323 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:05:45.323 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:06:50 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:05:45.323 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:05:45.323 +01:00 [INF]Validation headers generated. ETag: Strong, "C2144F85D495677756158D6B4EC154FB". Last-Modified: Mon, 27 Dec 2021 14:05:45 GMT
+2021-12-27 15:05:45.323 +01:00 [INF]Generating Vary header.
+2021-12-27 15:05:45.323 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:05:45.323 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:05:45.324 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations - - - 200 - application/json;+charset=utf-8 57.3329ms
+2021-12-27 15:06:09.460 +01:00 [INF]Request starting HTTP/2 POST https://localhost:44365/api/Locations application/json 19
+2021-12-27 15:06:09.462 +01:00 [INF]CORS policy execution successful.
+2021-12-27 15:06:09.462 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:06:09.462 +01:00 [INF]Not valid - method isn't GET or HEAD.
+2021-12-27 15:06:09.462 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:06:09.462 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:06:09.462 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:06:09.462 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:06:09.463 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.CreateLocation (apiWS)'
+2021-12-27 15:06:09.473 +01:00 [INF]Route matched with {action = "CreateLocation", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateLocation(apiWS.Models.LocationsCreateDTO) on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:06:09.493 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:06:10.087 +01:00 [INF]Executed DbCommand (399ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [locations] ([City], [City_short], [Name_location], [Postal_Code], [Street], [Street_Number])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [locations]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2021-12-27 15:06:10.117 +01:00 [INF]Executing CreatedAtRouteResult, writing value of type 'apiWS.Models.Locations'.
+2021-12-27 15:06:10.137 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.CreateLocation (apiWS) in 664.1312ms
+2021-12-27 15:06:10.137 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.CreateLocation (apiWS)'
+2021-12-27 15:06:10.137 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:06:10.137 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:07:15 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:06:10.137 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:06:10.137 +01:00 [INF]Validation headers generated. ETag: Strong, "D5F98FB8C43E065426B3716CD4F684A9". Last-Modified: Mon, 27 Dec 2021 14:06:10 GMT
+2021-12-27 15:06:10.137 +01:00 [INF]Generating Vary header.
+2021-12-27 15:06:10.137 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:06:10.138 +01:00 [INF]Request finished HTTP/2 POST https://localhost:44365/api/Locations application/json 19 - 201 - application/json;+charset=utf-8 678.0041ms
+2021-12-27 15:06:22.106 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations/2 - -
+2021-12-27 15:06:22.106 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:06:22.106 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:06:22.106 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:06:22.106 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:06:22.106 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:06:22.106 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:06:22.106 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:06:22.110 +01:00 [INF]Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-12-27 15:06:22.113 +01:00 [INF]AuthenticationScheme: Bearer was challenged.
+2021-12-27 15:06:22.113 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:06:22.113 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:07:27 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:06:22.113 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 15:06:22.113 +01:00 [INF]Generating Vary header.
+2021-12-27 15:06:22.113 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:06:22.113 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:06:22.114 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations/2 - - - 401 - - 7.9559ms
+2021-12-27 15:06:31.941 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations/3 - -
+2021-12-27 15:06:31.941 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:06:31.941 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:06:31.942 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:06:31.942 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:06:31.942 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:06:31.942 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:06:31.942 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:06:31.942 +01:00 [INF]Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-12-27 15:06:31.942 +01:00 [INF]AuthenticationScheme: Bearer was challenged.
+2021-12-27 15:06:31.942 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:06:31.942 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:07:36 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:06:31.942 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 15:06:31.942 +01:00 [INF]Generating Vary header.
+2021-12-27 15:06:31.942 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:06:31.942 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:06:31.943 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations/3 - - - 401 - - 1.6105ms
+2021-12-27 15:06:53.987 +01:00 [INF]Request starting HTTP/2 POST https://localhost:44365/api/Account/login application/json 54
+2021-12-27 15:06:53.988 +01:00 [INF]CORS policy execution successful.
+2021-12-27 15:06:53.988 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:06:53.988 +01:00 [INF]Not valid - method isn't GET or HEAD.
+2021-12-27 15:06:53.988 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:06:53.988 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:06:53.988 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:06:53.988 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:06:53.988 +01:00 [INF]Executing endpoint 'apiWS.Controllers.AccountController.Login (apiWS)'
+2021-12-27 15:06:53.990 +01:00 [INF]Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(apiWS.Dto.LoginUserDTO) on controller apiWS.Controllers.AccountController (apiWS).
+2021-12-27 15:06:54.000 +01:00 [INF]Login Attempt for dusan.mesi@gmail.com
+2021-12-27 15:06:54.002 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:06:54.273 +01:00 [INF]Executed DbCommand (221ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2021-12-27 15:06:54.395 +01:00 [INF]Executed DbCommand (15ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2021-12-27 15:06:54.503 +01:00 [INF]Executing AcceptedResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-12-27 15:06:54.504 +01:00 [INF]Executed action apiWS.Controllers.AccountController.Login (apiWS) in 513.4184ms
+2021-12-27 15:06:54.504 +01:00 [INF]Executed endpoint 'apiWS.Controllers.AccountController.Login (apiWS)'
+2021-12-27 15:06:54.504 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:06:54.504 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:07:59 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:06:54.504 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:06:54.504 +01:00 [INF]Validation headers generated. ETag: Strong, "A110B9216D8651D4F9AC06D03D13A89A". Last-Modified: Mon, 27 Dec 2021 14:06:54 GMT
+2021-12-27 15:06:54.504 +01:00 [INF]Generating Vary header.
+2021-12-27 15:06:54.504 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:06:54.505 +01:00 [INF]Request finished HTTP/2 POST https://localhost:44365/api/Account/login application/json 54 - 202 - application/json;+charset=utf-8 517.8240ms
+2021-12-27 15:07:02.288 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations/3 - -
+2021-12-27 15:07:02.288 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:07:02.288 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:07:02.288 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:07:02.288 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:07:02.288 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:07:02.288 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:07:02.288 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:07:02.289 +01:00 [INF]Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-12-27 15:07:02.289 +01:00 [INF]AuthenticationScheme: Bearer was challenged.
+2021-12-27 15:07:02.289 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:07:02.289 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:08:07 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:07:02.289 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 15:07:02.289 +01:00 [INF]Generating Vary header.
+2021-12-27 15:07:02.289 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:07:02.289 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:07:02.289 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations/3 - - - 401 - - 1.3920ms
+2021-12-27 15:07:05.011 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations/2 - -
+2021-12-27 15:07:05.011 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:07:05.011 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:07:05.011 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:07:05.012 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:07:05.012 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:07:05.012 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:07:05.012 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:07:05.012 +01:00 [INF]Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-12-27 15:07:05.012 +01:00 [INF]AuthenticationScheme: Bearer was challenged.
+2021-12-27 15:07:05.012 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:07:05.012 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:08:10 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:07:05.012 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 15:07:05.012 +01:00 [INF]Generating Vary header.
+2021-12-27 15:07:05.012 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:07:05.012 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:07:05.012 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations/2 - - - 401 - - 0.9718ms
+2021-12-27 15:07:05.296 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations/2 - -
+2021-12-27 15:07:05.296 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:07:05.296 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:07:05.296 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:07:05.296 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:07:05.296 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:07:05.296 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:07:05.296 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:07:05.297 +01:00 [INF]Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-12-27 15:07:05.297 +01:00 [INF]AuthenticationScheme: Bearer was challenged.
+2021-12-27 15:07:05.297 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:07:05.297 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:08:10 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:07:05.297 +01:00 [INF]Not generating Validation headers as the response status code does not indicate success.
+2021-12-27 15:07:05.297 +01:00 [INF]Generating Vary header.
+2021-12-27 15:07:05.297 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:07:05.297 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:07:05.297 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations/2 - - - 401 - - 0.7250ms
+2021-12-27 15:07:39.888 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/2 - -
+2021-12-27 15:07:39.888 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:07:39.888 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:07:39.888 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:07:39.888 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:07:39.888 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:07:39.888 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:07:40.004 +01:00 [INF]Successfully validated the token.
+2021-12-27 15:07:40.004 +01:00 [INF]Authorization was successful.
+2021-12-27 15:07:40.004 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocation (apiWS)'
+2021-12-27 15:07:40.006 +01:00 [INF]Route matched with {action = "GetLocation", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocation(Int32) on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:07:40.009 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:07:41.480 +01:00 [INF]Executed DbCommand (924ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[City], [t].[City_short], [t].[Name_location], [t].[Postal_Code], [t].[Street], [t].[Street_Number], [p].[Id], [p].[Description], [p].[Id_categories], [p].[Id_location], [p].[Name], [p].[Picture], [p].[Price], [p].[Stock]
+FROM (
+    SELECT TOP(1) [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+    FROM [locations] AS [l]
+    WHERE [l].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [products] AS [p] ON [t].[Id] = [p].[Id_location]
+ORDER BY [t].[Id], [p].[Id]
+2021-12-27 15:07:41.495 +01:00 [INF]Executing OkObjectResult, writing value of type 'apiWS.Models.LocationsDTO'.
+2021-12-27 15:07:41.531 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocation (apiWS) in 1525.0307ms
+2021-12-27 15:07:41.532 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocation (apiWS)'
+2021-12-27 15:07:41.532 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:07:41.532 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:08:46 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:07:41.532 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:07:41.532 +01:00 [INF]Validation headers generated. ETag: Strong, "B6E0E2A356F8E5CDF38C66B2B5A1EC96". Last-Modified: Mon, 27 Dec 2021 14:07:41 GMT
+2021-12-27 15:07:41.532 +01:00 [INF]Generating Vary header.
+2021-12-27 15:07:41.532 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:07:41.532 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/2 - - - 200 - application/json;+charset=utf-8 1644.2700ms
+2021-12-27 15:08:39.033 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:08:39.033 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:08:39.033 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:08:39.033 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:08:39.033 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:08:39.033 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:08:39.033 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:08:39.033 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:08:39.034 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:08:39.034 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:08:39.034 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:08:39.035 +01:00 [INF]Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:08:39.035 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:08:39.035 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 1.3694ms
+2021-12-27 15:08:39.035 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:08:39.035 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:08:39.035 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:09:44 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:08:39.035 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:08:39.035 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:08:39 GMT
+2021-12-27 15:08:39.035 +01:00 [INF]Generating Vary header.
+2021-12-27 15:08:39.035 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:08:39.035 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:08:39.036 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 3.1319ms
+2021-12-27 15:08:50.605 +01:00 [INF]Aplikacija pocinje sa radom
+2021-12-27 15:08:52.753 +01:00 [INF]User profile is available. Using 'C:\Users\mes7456\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-27 15:08:53.478 +01:00 [INF]Application started. Press Ctrl+C to shut down.
+2021-12-27 15:08:53.478 +01:00 [INF]Hosting environment: Development
+2021-12-27 15:08:53.478 +01:00 [INF]Content root path: d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS
+2021-12-27 15:08:53.499 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2021-12-27 15:08:53.602 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 104.7124ms
+2021-12-27 15:08:53.771 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+2021-12-27 15:08:53.773 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 3080 application/javascript;+charset=utf-8 1.5719ms
+2021-12-27 15:08:53.914 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2021-12-27 15:08:53.983 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.4803ms
+2021-12-27 15:08:59.085 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:08:59.093 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:08:59.136 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:08:59.138 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:08:59.138 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:08:59.139 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:08:59.139 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:08:59.139 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:08:59.311 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:08:59.329 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:09:00.200 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:09:01.182 +01:00 [INF]Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:09:01.231 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:09:01.243 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 1910.9333ms
+2021-12-27 15:09:01.244 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:09:01.246 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:09:01.246 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:10:06 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:09:01.247 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:09:01.252 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:09:01 GMT
+2021-12-27 15:09:01.252 +01:00 [INF]Generating Vary header.
+2021-12-27 15:09:01.252 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:09:01.258 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:09:01.262 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 2176.4553ms
+2021-12-27 15:09:39.509 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:09:39.511 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:09:39.511 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:09:39.511 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:09:39.511 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:09:39.511 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:09:39.511 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:09:39.511 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:09:39.514 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:09:39.516 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:09:39.541 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:09:39.547 +01:00 [INF]Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:09:39.548 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:09:39.548 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 32.3872ms
+2021-12-27 15:09:39.548 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:09:39.548 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:09:39.548 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:10:44 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:09:39.548 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:09:39.549 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:09:39 GMT
+2021-12-27 15:09:39.549 +01:00 [INF]Generating Vary header.
+2021-12-27 15:09:39.549 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:09:39.549 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:09:39.549 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 40.4919ms
+2021-12-27 15:09:44.510 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:09:44.510 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:09:44.511 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:09:44.511 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:09:44.511 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:09:44.511 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:09:44.511 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:09:44.511 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:09:44.512 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:09:44.512 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:09:44.523 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:09:44.524 +01:00 [INF]Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:09:44.525 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:09:44.525 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 12.5057ms
+2021-12-27 15:09:44.525 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:09:44.525 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:09:44.525 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:10:49 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:09:44.525 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:09:44.525 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:09:44 GMT
+2021-12-27 15:09:44.525 +01:00 [INF]Generating Vary header.
+2021-12-27 15:09:44.525 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:09:44.525 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:09:44.525 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 15.2636ms
+2021-12-27 15:09:56.879 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:09:56.879 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:09:56.879 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:09:56.880 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:09:56.880 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:09:56.880 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:09:56.880 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:09:56.880 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:09:56.880 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:09:56.880 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:09:56.880 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:09:56.881 +01:00 [INF]Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:09:56.881 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:09:56.881 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 1.3241ms
+2021-12-27 15:09:56.881 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:09:56.881 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:09:56.881 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:11:01 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:09:56.881 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:09:56.881 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:09:56 GMT
+2021-12-27 15:09:56.881 +01:00 [INF]Generating Vary header.
+2021-12-27 15:09:56.881 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:09:56.881 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:09:56.882 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 2.6186ms
+2021-12-27 15:10:04.283 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:10:04.283 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:10:04.283 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:10:04.283 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:10:04.283 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:10:04.283 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:10:04.283 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:10:04.283 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:10:04.283 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:10:04.284 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:10:04.286 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:10:04.287 +01:00 [INF]Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:10:04.287 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:10:04.287 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 3.725ms
+2021-12-27 15:10:04.287 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:10:04.287 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:10:04.287 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:11:09 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:10:04.287 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:10:04.287 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:10:04 GMT
+2021-12-27 15:10:04.287 +01:00 [INF]Generating Vary header.
+2021-12-27 15:10:04.287 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:10:04.288 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:10:04.289 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 5.7127ms
+2021-12-27 15:10:34.463 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:10:34.463 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:10:34.463 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:10:34.463 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:10:34.463 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:10:34.463 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:10:34.463 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:10:34.463 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:10:34.468 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:10:34.468 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:10:34.469 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:10:34.479 +01:00 [INF]Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:10:34.479 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:10:34.479 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 10.7858ms
+2021-12-27 15:10:34.479 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:10:34.479 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:10:34.479 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:11:39 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:10:34.479 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:10:34.479 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:10:34 GMT
+2021-12-27 15:10:34.479 +01:00 [INF]Generating Vary header.
+2021-12-27 15:10:34.479 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:10:34.479 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:10:34.484 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 20.9140ms
+2021-12-27 15:10:38.253 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:10:38.253 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:10:38.253 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:10:38.253 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:10:38.253 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:10:38.253 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:10:38.253 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:10:38.253 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:10:38.254 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:10:38.254 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:10:38.254 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:10:38.262 +01:00 [INF]Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:10:38.262 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:10:38.262 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 8.4598ms
+2021-12-27 15:10:38.262 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:10:38.262 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:10:38.262 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:11:43 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:10:38.262 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:10:38.262 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:10:38 GMT
+2021-12-27 15:10:38.262 +01:00 [INF]Generating Vary header.
+2021-12-27 15:10:38.262 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:10:38.262 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:10:38.263 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 9.9501ms
+2021-12-27 15:10:40.581 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:10:40.581 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:10:40.581 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:10:40.581 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:10:40.581 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:10:40.581 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:10:40.581 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:10:40.581 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:10:40.582 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:10:40.583 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:10:40.584 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:10:40.591 +01:00 [INF]Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:10:40.592 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:10:40.592 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 9.04ms
+2021-12-27 15:10:40.592 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:10:40.592 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:10:40.592 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:11:45 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:10:40.592 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:10:40.592 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:10:40 GMT
+2021-12-27 15:10:40.592 +01:00 [INF]Generating Vary header.
+2021-12-27 15:10:40.592 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:10:40.592 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:10:40.592 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 11.8654ms
+2021-12-27 15:11:40.261 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:11:40.261 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:11:40.261 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:11:40.261 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:11:40.261 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:11:40.261 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:11:40.261 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:11:40.261 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:11:40.261 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:11:40.261 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:11:40.262 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:11:40.267 +01:00 [INF]Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:11:40.268 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:11:40.268 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 6.455ms
+2021-12-27 15:11:40.268 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:11:40.268 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:11:40.268 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:12:45 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:11:40.268 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:11:40.268 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:11:40 GMT
+2021-12-27 15:11:40.268 +01:00 [INF]Generating Vary header.
+2021-12-27 15:11:40.268 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:11:40.268 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:11:40.269 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 7.9062ms
+2021-12-27 15:11:55.359 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:11:55.359 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:11:55.359 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:11:55.359 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:11:55.359 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:11:55.359 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:11:55.359 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:11:55.359 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:11:55.359 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:11:55.360 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:11:55.360 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:11:55.364 +01:00 [INF]Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:11:55.364 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:11:55.364 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 4.6994ms
+2021-12-27 15:11:55.364 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:11:55.364 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:11:55.364 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:13:00 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:11:55.364 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:11:55.364 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:11:55 GMT
+2021-12-27 15:11:55.364 +01:00 [INF]Generating Vary header.
+2021-12-27 15:11:55.364 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:11:55.365 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:11:55.365 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 5.9680ms
+2021-12-27 15:12:00.977 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:12:00.977 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:12:00.977 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:12:00.977 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:12:00.977 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:12:00.978 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:12:00.978 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:12:00.978 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:12:00.978 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:12:00.978 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:12:00.978 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:12:00.980 +01:00 [INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:12:00.980 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:12:00.980 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 2.4082ms
+2021-12-27 15:12:00.980 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:12:00.980 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:12:00.980 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:13:05 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:12:00.980 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:12:00.980 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:12:00 GMT
+2021-12-27 15:12:00.980 +01:00 [INF]Generating Vary header.
+2021-12-27 15:12:00.980 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:12:00.981 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:12:00.981 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 4.1516ms
+2021-12-27 15:12:05.754 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:12:05.754 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:12:05.754 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:12:05.754 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:12:05.754 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:12:05.754 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:12:05.754 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:12:05.754 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:12:05.754 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:12:05.754 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:12:05.755 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:12:05.757 +01:00 [INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:12:05.757 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:12:05.758 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 3.2388ms
+2021-12-27 15:12:05.758 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:12:05.758 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:12:05.758 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:13:10 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:12:05.758 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:12:05.758 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:12:05 GMT
+2021-12-27 15:12:05.758 +01:00 [INF]Generating Vary header.
+2021-12-27 15:12:05.758 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:12:05.758 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:12:05.758 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 4.8093ms
+2021-12-27 15:12:12.825 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:12:12.825 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:12:12.825 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:12:12.825 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:12:12.825 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:12:12.825 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:12:12.825 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:12:12.825 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:12:12.825 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:12:12.825 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:12:12.826 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:12:12.828 +01:00 [INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:12:12.829 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:12:12.829 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 3.7689ms
+2021-12-27 15:12:12.829 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:12:12.829 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:12:12.829 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:13:17 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:12:12.829 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:12:12.829 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:12:12 GMT
+2021-12-27 15:12:12.829 +01:00 [INF]Generating Vary header.
+2021-12-27 15:12:12.830 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:12:12.830 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:12:12.830 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 5.5268ms
+2021-12-27 15:16:31.916 +01:00 [INF]Aplikacija pocinje sa radom
+2021-12-27 15:16:32.353 +01:00 [INF]User profile is available. Using 'C:\Users\mes7456\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-27 15:16:32.528 +01:00 [INF]Application started. Press Ctrl+C to shut down.
+2021-12-27 15:16:32.528 +01:00 [INF]Hosting environment: Development
+2021-12-27 15:16:32.528 +01:00 [INF]Content root path: d:\data\mes7456\Desktop\apiProdavncica\apiWS\apiWS
+2021-12-27 15:16:32.554 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/index.html - -
+2021-12-27 15:16:32.637 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/index.html - - - 200 - text/html;charset=utf-8 86.5728ms
+2021-12-27 15:16:32.688 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - -
+2021-12-27 15:16:32.691 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/_framework/aspnetcore-browser-refresh.js - - - 200 3080 application/javascript;+charset=utf-8 1.8610ms
+2021-12-27 15:16:32.862 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - -
+2021-12-27 15:16:32.956 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.1236ms
+2021-12-27 15:16:36.344 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:16:36.351 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:16:36.377 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:16:36.378 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:16:36.378 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:16:36.379 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:16:36.379 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:16:36.379 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:16:36.575 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:16:36.592 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:16:37.392 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:16:38.171 +01:00 [INF]Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:16:38.211 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:16:38.223 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 1627.6546ms
+2021-12-27 15:16:38.224 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:16:38.226 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:16:38.226 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:17:43 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:16:38.227 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:16:38.232 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:16:38 GMT
+2021-12-27 15:16:38.232 +01:00 [INF]Generating Vary header.
+2021-12-27 15:16:38.232 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:16:38.238 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:16:38.241 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 1897.4011ms
+2021-12-27 15:17:13.454 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:17:13.455 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:17:13.455 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:17:13.455 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:17:13.455 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:17:13.455 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:17:13.455 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:17:13.455 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:17:13.457 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:17:13.457 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:17:13.490 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:17:13.496 +01:00 [INF]Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:17:13.497 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:17:13.497 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 39.7905ms
+2021-12-27 15:17:13.497 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:17:13.497 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:17:13.497 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:18:18 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:17:13.497 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:17:13.497 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:17:13 GMT
+2021-12-27 15:17:13.497 +01:00 [INF]Generating Vary header.
+2021-12-27 15:17:13.498 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:17:13.498 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:17:13.498 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 43.9323ms
+2021-12-27 15:19:00.056 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:19:00.057 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:19:00.057 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:19:00.057 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:19:00.057 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:19:00.057 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:19:00.058 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:19:00.058 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:19:00.059 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:19:00.059 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:19:00.070 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:19:00.071 +01:00 [INF]Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:19:00.071 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:19:00.072 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 12.6373ms
+2021-12-27 15:19:00.072 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:19:00.072 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:19:00.072 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:20:05 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:19:00.072 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:19:00.072 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:19:00 GMT
+2021-12-27 15:19:00.072 +01:00 [INF]Generating Vary header.
+2021-12-27 15:19:00.072 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:19:00.072 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:19:00.072 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 16.3463ms
+2021-12-27 15:19:14.955 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:19:14.955 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:19:14.955 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:19:14.955 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:19:14.955 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:19:14.955 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:19:14.955 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:19:14.955 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:19:14.955 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:19:14.955 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:19:14.955 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:19:14.956 +01:00 [INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:19:14.956 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:19:14.957 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 1.3875ms
+2021-12-27 15:19:14.957 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:19:14.957 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:19:14.957 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:20:19 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:19:14.957 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:19:14.957 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:19:14 GMT
+2021-12-27 15:19:14.957 +01:00 [INF]Generating Vary header.
+2021-12-27 15:19:14.957 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:19:14.957 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:19:14.958 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 3.4521ms
+2021-12-27 15:19:30.803 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:19:30.803 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:19:30.804 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:19:30.804 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:19:30.804 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:19:30.804 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:19:30.804 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:19:30.804 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:19:30.804 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:19:30.804 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:19:30.805 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:19:30.806 +01:00 [INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:19:30.806 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:19:30.806 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 2.1829ms
+2021-12-27 15:19:30.807 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:19:30.807 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:19:30.807 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:20:35 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:19:30.807 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:19:30.807 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:19:30 GMT
+2021-12-27 15:19:30.807 +01:00 [INF]Generating Vary header.
+2021-12-27 15:19:30.807 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:19:30.807 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:19:30.807 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 3.9035ms
+2021-12-27 15:20:56.577 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:20:56.577 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:20:56.578 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:20:56.578 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:20:56.578 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:20:56.578 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:20:56.578 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:20:56.578 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:20:56.578 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:20:56.578 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:20:56.578 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:20:56.581 +01:00 [INF]Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:20:56.582 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:20:56.582 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 3.8304ms
+2021-12-27 15:20:56.582 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:20:56.582 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:20:56.582 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:22:01 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:20:56.582 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:20:56.582 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:20:56 GMT
+2021-12-27 15:20:56.582 +01:00 [INF]Generating Vary header.
+2021-12-27 15:20:56.582 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:20:56.582 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:20:56.583 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 5.5995ms
+2021-12-27 15:20:57.494 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:20:57.494 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:20:57.494 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:20:57.495 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:20:57.495 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:20:57.495 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:20:57.495 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:20:57.495 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:20:57.495 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:20:57.495 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:20:57.495 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:20:57.496 +01:00 [INF]Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:20:57.496 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:20:57.496 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 1.2899ms
+2021-12-27 15:20:57.496 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:20:57.496 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:20:57.496 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:22:02 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:20:57.496 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:20:57.496 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:20:57 GMT
+2021-12-27 15:20:57.496 +01:00 [INF]Generating Vary header.
+2021-12-27 15:20:57.496 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:20:57.496 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:20:57.498 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 2.4663ms
+2021-12-27 15:21:27.706 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:21:27.706 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:21:27.706 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:21:27.706 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:21:27.706 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:21:27.706 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:21:27.706 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:21:27.706 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:21:27.706 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:21:27.706 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:21:27.707 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:21:27.707 +01:00 [INF]Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:21:27.707 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:21:27.707 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 1.1243ms
+2021-12-27 15:21:27.707 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:21:27.708 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:21:27.708 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:22:32 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:21:27.708 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:21:27.708 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:21:27 GMT
+2021-12-27 15:21:27.708 +01:00 [INF]Generating Vary header.
+2021-12-27 15:21:27.708 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:21:27.708 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:21:27.708 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 2.2158ms
+2021-12-27 15:22:05.885 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:22:05.886 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:22:05.886 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:22:05.886 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:22:05.886 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:22:05.886 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:22:05.886 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:22:05.886 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:22:05.886 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:22:05.886 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:22:05.886 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:22:05.889 +01:00 [INF]Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:22:05.890 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:22:05.890 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 3.7876ms
+2021-12-27 15:22:05.890 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:22:05.890 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:22:05.890 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:23:10 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:22:05.890 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:22:05.890 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:22:05 GMT
+2021-12-27 15:22:05.890 +01:00 [INF]Generating Vary header.
+2021-12-27 15:22:05.890 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:22:05.890 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:22:05.890 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 5.0173ms
+2021-12-27 15:22:16.239 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:22:16.239 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:22:16.239 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:22:16.239 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:22:16.239 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:22:16.239 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:22:16.239 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:22:16.239 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:22:16.239 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:22:16.239 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:22:16.240 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:22:16.241 +01:00 [INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:22:16.241 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:22:16.241 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 1.6888ms
+2021-12-27 15:22:16.241 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:22:16.241 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:22:16.241 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:23:21 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:22:16.241 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:22:16.242 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:22:16 GMT
+2021-12-27 15:22:16.242 +01:00 [INF]Generating Vary header.
+2021-12-27 15:22:16.242 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:22:16.243 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:22:16.245 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 5.9164ms
+2021-12-27 15:23:33.460 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:23:33.460 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:23:33.460 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:23:33.460 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:23:33.460 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:23:33.460 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:23:33.460 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:23:33.460 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:23:33.460 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:23:33.461 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:23:33.461 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:23:33.462 +01:00 [INF]Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:23:33.462 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:23:33.462 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 1.3438ms
+2021-12-27 15:23:33.462 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:23:33.462 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:23:33.462 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:24:38 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:23:33.462 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:23:33.462 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:23:33 GMT
+2021-12-27 15:23:33.462 +01:00 [INF]Generating Vary header.
+2021-12-27 15:23:33.462 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:23:33.462 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:23:33.463 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 2.9084ms
+2021-12-27 15:24:36.060 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:24:36.060 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:24:36.060 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:24:36.061 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:24:36.061 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:24:36.061 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:24:36.061 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:24:36.061 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:24:36.061 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:24:36.061 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:24:36.061 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:24:36.063 +01:00 [INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:24:36.063 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:24:36.063 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 1.981ms
+2021-12-27 15:24:36.063 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:24:36.063 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:24:36.063 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:25:41 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:24:36.063 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:24:36.063 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:24:36 GMT
+2021-12-27 15:24:36.063 +01:00 [INF]Generating Vary header.
+2021-12-27 15:24:36.063 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:24:36.064 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:24:36.064 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 4.0021ms
+2021-12-27 15:24:41.864 +01:00 [INF]Request starting HTTP/2 GET https://localhost:44365/api/Locations - -
+2021-12-27 15:24:41.864 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:24:41.864 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:24:41.864 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:24:41.864 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:24:41.865 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:24:41.865 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:24:41.865 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:24:41.865 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:24:41.865 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:24:41.865 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:24:41.866 +01:00 [INF]Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:24:41.867 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:24:41.867 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 1.8437ms
+2021-12-27 15:24:41.867 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:24:41.867 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:24:41.867 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:25:46 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:24:41.867 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:24:41.867 +01:00 [INF]Validation headers generated. ETag: Strong, "0D626D6E8348500C80F60EFC00078F26". Last-Modified: Mon, 27 Dec 2021 14:24:41 GMT
+2021-12-27 15:24:41.867 +01:00 [INF]Generating Vary header.
+2021-12-27 15:24:41.867 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:24:41.868 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:24:41.868 +01:00 [INF]Request finished HTTP/2 GET https://localhost:44365/api/Locations - - - 200 - application/json;+charset=utf-8 4.1675ms
+2021-12-27 15:29:44.086 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:29:44.087 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:29:44.087 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:29:44.087 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:29:44.087 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:29:44.087 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:29:44.087 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:29:44.087 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:29:44.087 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:29:44.087 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:29:44.088 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:29:44.364 +01:00 [INF]Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:29:44.364 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:29:44.364 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 276.8292ms
+2021-12-27 15:29:44.364 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:29:44.364 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:29:44.364 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:30:49 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:29:44.364 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:29:44.364 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:29:44 GMT
+2021-12-27 15:29:44.364 +01:00 [INF]Generating Vary header.
+2021-12-27 15:29:44.364 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:29:44.365 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:29:44.365 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 278.5814ms
+2021-12-27 15:33:25.793 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:33:25.794 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:33:25.794 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:33:25.794 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:33:25.794 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:33:25.794 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:33:25.794 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:33:25.794 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:33:25.794 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:33:25.794 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:33:25.794 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:33:25.848 +01:00 [INF]Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:33:25.849 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:33:25.849 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 55.022ms
+2021-12-27 15:33:25.849 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:33:25.849 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:33:25.849 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:34:30 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:33:25.849 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:33:25.850 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:33:25 GMT
+2021-12-27 15:33:25.850 +01:00 [INF]Generating Vary header.
+2021-12-27 15:33:25.850 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:33:25.850 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:33:25.851 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 57.4843ms
+2021-12-27 15:36:25.749 +01:00 [INF]Request starting HTTP/1.1 GET https://localhost:44365/api/Locations/ - -
+2021-12-27 15:36:25.749 +01:00 [INF]No cached response available for this request.
+2021-12-27 15:36:25.749 +01:00 [INF]Checking for conditional GET/HEAD.
+2021-12-27 15:36:25.749 +01:00 [INF]Not valid - no If-None-Match or If-Modified-Since headers.
+2021-12-27 15:36:25.749 +01:00 [INF]Don't generate 304 - Not Modified.  Continue.
+2021-12-27 15:36:25.749 +01:00 [INF]Checking for conditional PUT/PATCH.
+2021-12-27 15:36:25.749 +01:00 [INF]Not valid - method isn't PUT or PATCH.
+2021-12-27 15:36:25.749 +01:00 [INF]Don't generate 412 - Precondition Failed.  Continue.
+2021-12-27 15:36:25.749 +01:00 [INF]Executing endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:36:25.750 +01:00 [INF]Route matched with {action = "GetLocations", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLocations() on controller apiWS.Controllers.LocationsController (apiWS).
+2021-12-27 15:36:25.751 +01:00 [INF]Entity Framework Core 5.0.10 initialized 'DataBaseContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-27 15:36:25.753 +01:00 [INF]Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[City], [l].[City_short], [l].[Name_location], [l].[Postal_Code], [l].[Street], [l].[Street_Number]
+FROM [locations] AS [l]
+2021-12-27 15:36:25.753 +01:00 [INF]Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[apiWS.Models.LocationsDTO, apiWS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-27 15:36:25.753 +01:00 [INF]Executed action apiWS.Controllers.LocationsController.GetLocations (apiWS) in 3.4374ms
+2021-12-27 15:36:25.753 +01:00 [INF]Executed endpoint 'apiWS.Controllers.LocationsController.GetLocations (apiWS)'
+2021-12-27 15:36:25.753 +01:00 [INF]Generating expiration headers.
+2021-12-27 15:36:25.753 +01:00 [INF]Expiration headers generated. Expires: Mon, 27 Dec 2021 14:37:30 GMT. Cache-Control: private,max-age=65,must-revalidate.
+2021-12-27 15:36:25.753 +01:00 [INF]Generating Validation headers.
+2021-12-27 15:36:25.753 +01:00 [INF]Validation headers generated. ETag: Strong, "23ABE49DCA70A992963A092BA735386F". Last-Modified: Mon, 27 Dec 2021 14:36:25 GMT
+2021-12-27 15:36:25.753 +01:00 [INF]Generating Vary header.
+2021-12-27 15:36:25.753 +01:00 [INF]Vary header generated: Accept, Accept-Language, Accept-Encoding.
+2021-12-27 15:36:25.753 +01:00 [INF]The response could not be cached for this request.
+2021-12-27 15:36:25.754 +01:00 [INF]Request finished HTTP/1.1 GET https://localhost:44365/api/Locations/ - - - 200 - application/json;+charset=utf-8 5.1993ms

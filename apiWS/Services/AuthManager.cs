@@ -89,6 +89,7 @@ namespace apiWS.Services
         {
             _user = await _userManager.FindByNameAsync(userDTO.Email);
 
+           
             return (_user != null && await _userManager.CheckPasswordAsync(_user, userDTO.Password));
 
         }

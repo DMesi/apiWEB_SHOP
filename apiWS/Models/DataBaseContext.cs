@@ -26,6 +26,10 @@ namespace apiWS.Models
             builder.ApplyConfiguration(new RoleConfiguration());
         }
 
+        internal object SqlQuery<T>(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 

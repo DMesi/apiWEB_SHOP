@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace apiWS.Controllers
@@ -19,7 +20,7 @@ namespace apiWS.Controllers
     {
 
         private readonly UserManager<ApiUser> _userManager;
-       // private readonly ILogger<AccountController> _logger;
+        private readonly ILogger<AccountController> _logger;
         private readonly IMapper _mapper;
         private readonly IAuthManager _authManager;
 
@@ -31,7 +32,7 @@ namespace apiWS.Controllers
         {
             _userManager = userManager;
       
-          //  _logger = logger;
+             _logger = logger;
              _mapper = mapper;
             _authManager = authManager;
         }
@@ -41,7 +42,7 @@ namespace apiWS.Controllers
         [Route("register")]
         public async Task<IActionResult> Register([FromBody] UserDTO userDTO)
         {
-           // _logger.LogInformation($"Registration Attempt for {userDTO.Email}");
+            _logger.LogInformation($"Registration Attempt for {userDTO.Email}");
 
             if (!ModelState.IsValid)
             {
@@ -53,6 +54,8 @@ namespace apiWS.Controllers
 
                 var user = _mapper.Map<ApiUser>(userDTO);
                 user.UserName = userDTO.Email;
+
+               
                 var result = await _userManager.CreateAsync(user, userDTO.Password);
 
                 if (!result.Succeeded)
@@ -68,14 +71,17 @@ namespace apiWS.Controllers
                     return BadRequest(ModelState);
 
                 }
+             
 
                 await _userManager.AddToRolesAsync(user, userDTO.Roles);
+                
+                
                 return Accepted();
 
             }
             catch (Exception ex)
             {
-             //  _logger.LogError(ex, $"Something went wrong in the {nameof(Register)}");
+               _logger.LogError(ex, $"Something went wrong in the {nameof(Register)}");
                 return Problem($"Something went wrong in the {nameof(Register)}", statusCode: 500);
             }
 
@@ -86,9 +92,9 @@ namespace apiWS.Controllers
 
         [HttpPost]
         [Route("login")]
-        public async Task<IActionResult> Login([FromBody] LoginUserDTO userDTO)
+        public async Task<IActionResult> Login([FromBody] UserDTO userDTO)
         {
-          //  _logger.LogInformation($"Login Attempt for {userDTO.Email}");
+            _logger.LogInformation($"Login Attempt for {userDTO.Email}");
 
             if (!ModelState.IsValid)
             {
@@ -97,29 +103,30 @@ namespace apiWS.Controllers
             }
             try
             {
-                // var result = await _signInManager.PasswordSignInAsync(userDTO.Email, userDTO.Password, false, false);
-
-                //if (!result.Succeeded)
-                //{
-                //    return Unauthorized(userDTO);
-
-                //}
-
+              
                 if (!await _authManager.ValidateUser(userDTO))
                 {
 
                     return Unauthorized();
 
                 }
+            //    var claims = new List<Claim>();
+                // Resolve the user via their email
+                 var user = await _userManager.FindByEmailAsync(userDTO.Email);
+                // Get the roles for the user
+                 var role = await _userManager.GetRolesAsync(user);
 
+               string rola = role[0];
+                
+                
 
-                return Accepted(new { Token = await _authManager.CreateToken() });
+                return Accepted(new {email = userDTO.Email, Token = await _authManager.CreateToken(), Roles= rola });
 
 
             }
             catch (Exception ex)
             {
-             //   _logger.LogError(ex, $"Something went wrong in the {nameof(Login)}");
+                _logger.LogError(ex, $"Something went wrong in the {nameof(Login)}");
                 return Problem($"Something went wrong in the {nameof(Login)}", statusCode: 500);
             }
 

@@ -19,6 +19,7 @@ using System.Threading.Tasks;
 using apiWS.Dto;
 using Microsoft.AspNetCore.Identity;
 using apiWS.Services;
+using AspNetCoreRateLimit;
 
 namespace apiWS
 {
@@ -40,6 +41,23 @@ namespace apiWS
 
             );
 
+            services.AddMemoryCache(); // koliko puta ko cemu pristupa
+            
+           services.ConfigureRateLimiting();
+
+            services.AddHttpContextAccessor();
+
+
+
+            services.ConfigureHttpCacheHeaders();
+           
+            
+
+
+            
+
+
+            services.AddResponseCaching();
 
             services.AddAuthentication();
 
@@ -48,6 +66,19 @@ namespace apiWS
             services.ConfigureJWT(Configuration);
 
 
+           
+
+
+            //CORS dozvola
+            services.AddCors(o => {
+
+                o.AddPolicy("DozvoliSveCORS", builder =>
+
+                builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
+
+            });
 
             services.AddIdentityCore<ApiUser>(q => q.User.RequireUniqueEmail = true);
 
@@ -58,11 +89,25 @@ namespace apiWS
 
             services.AddAutoMapper(typeof(MapperInitilizer));
 
-            services.AddControllers();
-            services.AddSwaggerGen(c =>
+            services.AddControllers(config =>
+            {
+                config.CacheProfiles.Add("120SecondsDuration", new CacheProfile
+                {
+
+                    Duration = 120
+
+                });
+            });
+
+
+
+                services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "apiWS", Version = "v1" });
             });
+
+
+            services.ConfigureVersioning();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -73,12 +118,29 @@ namespace apiWS
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "apiWS v1"));
+
+                //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/ProductsAPI/swagger.json", "Prod"));
+                //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/LocationAPI/swagger.json", "Loc"));
+                
+
+
             }
+
+            app.ConfigureExceptionHandler();
 
             app.UseHttpsRedirection();
 
-            app.UseRouting();
+           
+            app.UseCors("DozvoliSveCORS"); // dozvola, definisana gore
 
+
+            app.UseResponseCaching();
+            app.UseHttpCacheHeaders();
+
+            app.UseIpRateLimiting();
+            
+            
+            app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
 

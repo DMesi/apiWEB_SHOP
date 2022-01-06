@@ -1,0 +1,154 @@
+﻿@model webWS.Models.Product;
+@*@model webWS.Models.ViewModel.locationDDL*@  
+
+@{
+
+    var title = "Create new Product";
+
+}
+
+<form method="post" asp-action="Upsert" enctype="multipart/form-data">
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    @if (Model.Id != 0)
+    {
+        <input type="hidden" asp-for="Id" />
+        title = "Edit Product";
+
+
+
+    }
+
+
+
+    <div class="row px-2 mx-2 backgroundWhite border">
+
+        <div class="col-12 p-3">
+            <h2 class="text-primary">@title</h2>
+        </div>
+        <div class="col-8">
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label>Category</label>
+                </div>
+
+                <div class="col-8">
+
+                    <select id="Category" class="form-control" onchange="categoryID()"></select>
+                    <input type="hidden" asp-for="Id_categories" />
+                    <span asp-validation-for="Id_categories" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label>Location</label>
+                </div>
+                <div class="col-8">
+
+
+                    @*@Html.DropDownListFor(m => m.Id_location, Model.locationList, "********", new { @class = "form-control" });*@
+
+                    <select id="Location" class="form-control" onchange="locationID()"></select>
+                        <input type="hidden" asp-for="Id_location" />
+                        <span asp-validation-for="Id_location" class="text-danger"></span>
+                </div>
+
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Name"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Description"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Price"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Stock"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Stock" class="form-control" />
+                    <span asp-validation-for="Stock" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Picture"></label>
+                </div>
+                <div class="col-8">
+
+                    <input type="file" asp-for="Picture" id="productImage" name="files" multiple class="form-control" />
+
+                    <span asp-validation-for="Picture" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+
+            <div class="form-group row">
+                <div class="col-4 offset-4">
+
+                    <button type="submit" class="btn btn-primary form-control">
+
+                        @(Model.Id!=0?"Update":"Create")
+
+                    </button>
+
+                </div>
+                <div class="col-4">
+                    <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 text-right" style="width:250px;">
+
+            @if (Model.Picture != null)
+            {
+                var base64 = Convert.ToBase64String(Model.Picture);
+                var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+                <img src="@imgsrc" width="100%" />
+            }
+
+        </div>
+    </div>
+
+</form>
+
+@section Scripts{
+
+
+    <script src="~/js/categoryLocationDDL.js"></script>"
+
+
+
+}

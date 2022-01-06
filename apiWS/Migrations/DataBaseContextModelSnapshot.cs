@@ -48,15 +48,15 @@ namespace apiWS.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "2483b5a3-c5c6-4bda-8df5-45ab42a839b9",
-                            ConcurrencyStamp = "1ca64e2d-7052-45cd-ad95-8771d6969096",
+                            Id = "a3946ea7-cfa9-4573-92d1-cfeaa5b1dc06",
+                            ConcurrencyStamp = "0c7983ba-b5c5-4a83-bc85-9bcae8d8c585",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
-                            Id = "d1e512b3-d2a5-4662-ab30-507a265138c7",
-                            ConcurrencyStamp = "9ce0f36d-e32c-497a-8b61-1899a6c3a9a7",
+                            Id = "eb4443c3-cf42-4813-bfc5-caef7429cb13",
+                            ConcurrencyStamp = "bd1ed228-fa86-4d7c-b979-a5e8b1faf281",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         });
@@ -304,8 +304,8 @@ namespace apiWS.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Picture")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<byte[]>("Picture")
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<double>("Price")
                         .HasColumnType("float");

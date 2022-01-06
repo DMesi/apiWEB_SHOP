@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "to0Gl77tZdvOyDHPDvJeL7GWVzm4UeQwqTJbh3u2zMK/7oKUMbLSyMwvPzc+7Kkn/Rlk3DklY5NUWZojyd81Tg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Messi\\Desktop\\apiProdavncica\\apiWS\\webWS\\webWS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Messi\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.10\\microsoft.aspnetcore.jsonpatch.5.0.10.nupkg.sha512",
+    "C:\\Users\\Messi\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.10\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.10.nupkg.sha512",
+    "C:\\Users\\Messi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Messi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Messi\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

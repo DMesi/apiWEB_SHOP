@@ -1,0 +1,9 @@
+﻿@model webWS.Models.Users
+
+<h1>Register: </h1>
+<form method="post">
+    <input asp-for="email" type="text" placeholder="Email ..." />
+    <input asp-for="password" type="password" placeholder="Password ..." />
+    <button type="submit" value="Submit">Register</button>
+    <input asp-for="Roles" type="hidden" value="User" />
+</form>
